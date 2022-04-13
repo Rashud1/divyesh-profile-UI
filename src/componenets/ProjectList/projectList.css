@@ -1,0 +1,42 @@
+.p1 {
+  text-align: center;
+  height: 100%;
+}
+.p1-lists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* margin-bottom: 5rem;
+ */
+}
+.pl-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-weight: 600;
+}
+.projects-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Work Sans', sans-serif;
+  font-size: xx-large;
+}
+
+@media screen and (max-width: 480px) {
+  .p1 {
+    padding: 10px;
+    margin-top: 40rem;
+  }
+  .p1-lists {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .pl-text {
+    width: 100%;
+  }
+}

@@ -1,0 +1,35 @@
+.left {
+  margin: 4rem;
+}
+.wrapper {
+  padding: 3rem;
+}
+
+.left-column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-size: 60px;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.skill-item > h6 {
+  font-size: 1.2rem;
+}
+
+.skill-icon {
+  font-size: 3rem;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 50px;
+  font-weight: 600;
+}
